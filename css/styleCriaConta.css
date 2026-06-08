@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(121, 25, 28, 1) 0%, rgba(202, 0, 16, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    font-family: "Audiowide", sans-serif;
+    min-width: 400px;
+}
+
+header {
+    display: flex;
+    background-color: #cc0000;
+    width: 100%;
+    height: 82px;
+    color: bisque;
+    padding: 12px;
+}
+
+header img {
+    margin-left: 40px;
+    height: 60px;
+}
+
+header h1 {
+    margin-left: 20px;
+    margin-top: 8px;
+    width: 15%;
+    color: white;
+    font-family: "DynaPuff", system-ui;
+    flex-grow: 1;
+}
+
+
+
+section {
+    width: 85%;
+    height: 75%;
+    margin: auto;
+    min-height: 8;
+    margin-top: 40px;
+    background-color: transparent;
+}
+
+
+#fundo1 {
+    background-color: white;
+    width: 50%;
+    height: 710px;
+    float: left;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+#fundo1 img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 75%;
+    margin-left: 100px;
+}
+
+
+
+#fundo2 {
+    background-color: rgba(197, 5, 5, 0.87);
+    width: 49.5%;
+    height: 710px;
+    float: left;
+    padding: 90px 130px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+#fundo2 form {
+    font-family: "Mouse Memoirs", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: #f5a6a6;
+    background: linear-gradient(100deg, rgb(236, 182, 182) 0%, rgb(206, 136, 136) 50%, rgba(255, 0, 4, 0.733) 100%);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border: 2px solid rgba(99, 99, 99, 0.726);
+    border-radius: 20px;
+    height: 550px;
+    padding: 20px 20px;
+    align-items: center;
+    text-align: left;
+}
+
+#fundo2 form h1 {
+    font-family: "Peralta", serif;
+}
+
+
+
+.labels {
+    display: inline-block;
+    width: 370px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.inputs {
+    display: flex;
+    width: 75%;
+    height: 35px;
+    border: 2px solid rgba(179, 177, 177, 0.692);
+    border-radius: 12px;
+    outline: none;
+    text-align: center;
+}
+
+
+button {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: "Peralta", serif;
+    margin-top: 50px;
+    width: 60%;
+    height: 35px;
+    border: 2px solid rgba(255, 255, 255, 0.274);
+    border-radius: 20px;
+}
+
+button:hover {
+    transform: translateY(5px);
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid black;
+
+}
